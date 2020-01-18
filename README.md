@@ -1,1 +1,8 @@
 # SmartCommute
+
+As the working population increases, commuting time has become an issue, especially in dense urban areas. A major issue for commuting workers is making it to work on time by avoiding traffic and the influx of other commuters. Our project aims to aid commuters in determining when to leave their house in order for the most efficient commute and make it to their jobs on time. 
+
+Our project will have two inputs: the zipcode and the time interval at which the worker desires to leave. The zipcodes will be input through a textbox. The time intervals will be predetermined and will be displayed and chosen through a drop-down menu. The code will match the zipcode to a row in the database, and output the number of people leaving for work at the selected time interval. Through knowing the number of people leaving at a particular time, people can determine if the time that they decide to leave is a busy time or not. With this knowledge, workers will be able to plan accordingly and leave the house either earlier or later in order to get to work on time. This will solve the commuting problem for people and workers living in dense urban areas or areas where there might be a lot of traffic.
+
+In order to solve this problem,  the American Community Survey’s 2017 dataset titled “Means of Transportation to Work by Time Leaving Home to Go to Work Universe: Workers 16 years and over who did not work at home” was used. The dataset is located at this url:
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_B08132&prodType=table​. The dataset was converted into a .txt file and the data was extracted from that file using Matlab.
